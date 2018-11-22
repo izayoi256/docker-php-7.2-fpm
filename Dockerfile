@@ -9,6 +9,7 @@ RUN set -x \
         iproute \
         git \
         sudo \
+        unzip \
         zlib1g-dev \
     && pecl install \
         apcu \
